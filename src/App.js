@@ -1,12 +1,13 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './style/index.css';
 const heading = React.createElement(
-  "h1",
-  //used to give attributes to a tag
-  {
-    id: "heading",
-  },
-  "Hello World from react"
+    'h1',
+    //used to give attributes to a tag
+    {
+        id: 'heading'
+    },
+    'Hello World from react'
 );
 
 // Way of rendering Child
@@ -19,5 +20,5 @@ const heading = React.createElement(
 //   [React.createElement("h1", {}, "I am h1 tag")]
 // );
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(heading);
