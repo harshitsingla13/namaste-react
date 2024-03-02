@@ -20,3 +20,8 @@ Setting up the project
 - Error Handling
 - Host your app in HTTPS
 - Tree Shaking Algo - Remove Unused code
+
+# React
+
+- React uses reconciliation algo(React Fiber)
+- Works on Diff Algo
